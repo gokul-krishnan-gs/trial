@@ -1,0 +1,49 @@
+/* Base styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#headingcentre{
+    text-align: center;
+}
+
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    /* Your styles for iPhone 15 */
+   
+
+}
+
+/* Styles for small devices (phones) */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .header {
+        font-size: 18px;
+    }
+    #headingcentre{
+        text-align: center;
+    }
+}
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        padding: 20px;
+    }
+    .header {
+        font-size: 24px;
+    }
+}
+
+/* Styles for large devices (desktops) */
+@media (min-width: 901px) {
+    .container {
+        padding: 30px;
+    }
+    .header {
+        font-size: 32px;
+    }
+}
